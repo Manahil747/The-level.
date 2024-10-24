@@ -1,300 +1,301 @@
- body {
-     background-color: rgb(250, 238, 240);
-     font-family: Arial, sans-serif;
- }
+  body {
+      background-color: rgb(250, 238, 240);
+      font-family: Arial, sans-serif;
+  }
 
- .card-img-top {
-     width: 15rem;
-     height: 10rem;
-     border-radius: 7px;
-     margin-top: 2rem;
- }
+  .card-img-top {
+      width: 15rem;
+      height: 10rem;
+      border-radius: 7px;
+      margin-top: 2rem;
+  }
 
- .detail {
-     border-radius: 7px;
-     width: 30rem;
-     height: 22rem;
+  .detail {
+      border-radius: 7px;
+      width: 30rem;
 
- }
+  }
 
- .card-title {
-     color: rgb(169, 172, 172);
-     margin-bottom: -0.5rem;
- }
+  .card-title {
+      color: rgb(169, 172, 172);
+      margin-bottom: -0.5rem;
+  }
 
- .cards-title {
-     color: rgb(81, 81, 81);
-     margin-bottom: -0.5rem;
-     font-size: 2rem;
-     font-weight: bolder;
- }
+  .cards-title {
+      color: rgb(81, 81, 81);
+      margin-bottom: -0.5rem;
+      font-size: 2rem;
+      font-weight: bolder;
+  }
 
- .card-text {
-     margin-bottom: 0.5rem;
-     margin-top: 1rem;
- }
+  .card-text {
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
+  }
 
- .cards-text {
-     margin-bottom: 0.5rem;
-     margin-top: 0rem;
-     font-weight: 400;
-     width: 22rem;
-     line-height: 1.5rem;
-     font-size: medium;
- }
+  .cards-text {
+      margin-bottom: 0.5rem;
+      margin-top: 0rem;
+      font-weight: 400;
+      width: 22rem;
+      line-height: 1.5rem;
+      font-size: medium;
+  }
 
- .card-body {
-     height: 6rem;
- }
+  .card-body {
+      height: 7rem;
+  }
 
- #firstContainer {
-     display: flex;
-   
- }
- #mainContainer{
-    width:90rem;
-    height:30rem;
- }
+  #firstContainer {
+      display: flex;
 
- #secondContainer {
-     /* display: flex; */
-     width: 15rem;
- }
+  }
 
- .card {
-     margin-left: 2rem;
-     width: 15rem;
- }
+  #secondContainer {
+      width: 15rem;
+  }
 
- #font {
-     display: flex;
-     margin-left: 2rem;
-     color: rgb(209, 83, 104);
- }
+  .card {
+      margin-left: 2rem;
+      width: 15rem;
+  }
 
- #btn {
-     display: flex;
-     color: rgb(209, 83, 104);
-     background-color: rgb(238, 181, 191);
-     border: none;
-     border-radius: 4px;
-     height: 2rem;
-     width: 4rem;
-     align-items: center;
-     margin-top: 1.6rem;
- }
+  #font {
+      display: flex;
+      margin-left: 2rem;
+      color: rgb(209, 83, 104);
+  }
 
- #button {
-     display: flex;
-     width: 20rem;
+  #btn {
+      display: flex;
+      color: rgb(209, 83, 104);
+      background-color: rgb(238, 181, 191);
+      border: none;
+      border-radius: 4px;
+      height: 2rem;
+      width: 4rem;
+      align-items: center;
+      margin-top: 1.6rem;
+  }
 
- }
+  #button {
+      display: flex;
+      width: 20rem;
 
- #q {
-     display: flex;
-     width: 70rem;
- }
+  }
 
- #first {
-     display: flex;
-     width: 60rem;
- }
+  #q {
+      display: flex;
+      width: 70rem;
+  }
 
- #formContainer {
-     display: flex;
-     text-align: center;
-     flex-wrap: nowrap;
-     height: 32rem;
-     width: 30rem;
-     background-color: azure;
-     justify-content: center;
-     border-radius: 10px;
-     box-shadow: 0px 0px 2px 1px rgb(213, 212, 212);
+  #first {
+      display: flex;
+      width: 60rem;
+  }
 
- }
+  #formContainer {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      width: 30rem;
+      background-color: azure;
+      justify-content: center;
+      border-radius: 10px;
+      box-shadow: 0px 0px 2px 1px rgb(213, 212, 212);
 
- #discriptionContainer {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     height:45rem;
-     width:90rem;
- }
+  }
 
- #mainContainer2 {
-     display: none;
- }
+  #discriptionContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      height: 45rem;
+      width: 90rem;
+  }
 
- #formData {
-     margin-top: 1rem;
+  #mainContainer2 {
+      display: none;
+  }
 
- }
+  #mainContainer22 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 
- #productname {
-     width: 22rem;
-     height: 1.5rem;
-     border-radius: 4px;
-     border: 1.5px solid red;
-     margin-top: 0.5rem;
- }
+  #formData {
+      margin-top: 1rem;
+  }
 
- #description {
-     border-radius: 4px;
-     border: 1.5px solid red;
-     margin-top: 0.5rem;
- }
+  #productname {
+      width: 22rem;
+      height: 1.5rem;
+      border-radius: 4px;
+      border: 1.5px solid red;
+      margin-top: 0.5rem;
+  }
 
- #price {
-     width: 22rem;
-     height: 1.5rem;
-     border-radius: 4px;
-     border: 1.5px solid red;
-     margin-top: 0.5rem;
- }
+  #description {
+      border-radius: 4px;
+      border: 1.5px solid red;
+      margin-top: 0.5rem;
+  }
 
- #quantity {
-     width: 22rem;
-     height: 1.5rem;
-     border-radius: 4px;
-     border: 1.5px solid red;
-     margin-top: 0.5rem;
- }
+  #price {
+      width: 22rem;
+      height: 1.5rem;
+      border-radius: 4px;
+      border: 1.5px solid red;
+      margin-top: 0.5rem;
+  }
 
- #image {
-     width: 22rem;
-     height: 1.5rem;
-     border-radius: 4px;
-     border: 1.5px solid red;
-     margin-top: 0.5rem;
- }
+  #quantity {
+      width: 22rem;
+      height: 1.5rem;
+      border-radius: 4px;
+      border: 1.5px solid red;
+      margin-top: 0.5rem;
+  }
 
- #bttn {
-     height: 2.2rem;
-     color: azure;
-     background-color: rgb(47, 164, 47);
-     border: none;
-     width: 6rem;
-     border-radius: 4px;
-     font-weight: 500;
+  #image {
+      width: 22rem;
+      height: 1.5rem;
+      border-radius: 4px;
+      border: 1.5px solid red;
+      margin-top: 0.5rem;
+  }
 
- }
+  #bttn {
+      height: 2.2rem;
+      color: azure;
+      background-color: rgb(47, 164, 47);
+      border: none;
+      width: 6rem;
+      border-radius: 4px;
+      font-weight: 500;
 
- #font1 {
-     margin-left: 9.5rem;
-     margin-bottom: 1rem;
- }
+  }
 
+  #font1 {
 
- #firstProductImage {
-     position: relative;
-     top: 17rem;
-     left: 10rem;
- }
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+  }
 
 
- #firstProductDescription {
-     position: relative;
-     top: 17rem;
-     right: 10rem;
- }
-
- #edit-btn {
-     height: 2rem;
-     color: azure;
-     background-color: rgb(47, 164, 47);
-     border: none;
-     width: 4rem;
-     border-radius: 4px;
-     font-weight: 500;
- }
-
- .card-text {
-     display: -webkit-box;
-     -webkit-box-orient: vertical;
-     -webkit-line-clamp: 2;
-     overflow: hidden;
-     text-overflow: ellipsis;
- }
-
- #one {
-     font-weight: bold;
- }
-
- #two {
-     font-weight: bold;
- }
-
- #three {
-     font-weight: bold;
- }
-
- #four {
-     font-weight: bold;
- }
-
- #five {
-     font-weight: bold;
- }
+  #firstProductImage {
+      position: relative;
+      top: 17rem;
+      left: 10rem;
+  }
 
 
- #design1 {
-     height: 2rem;
-     color: azure;
-     background-color: rgb(47, 164, 47);
-     border: none;
-     width: 4rem;
-     border-radius: 4px;
-     font-weight: 500;
+  #firstProductDescription {
+      position: relative;
+      top: 17rem;
+      right: 10rem;
+  }
 
- }
+  #edit-btn {
+      height: 2rem;
+      color: azure;
+      background-color: rgb(47, 164, 47);
+      border: none;
+      width: 4rem;
+      border-radius: 4px;
+      font-weight: 500;
+  }
 
- #design2 {
-     height: 2rem;
-     color: azure;
-     background-color: rgb(47, 164, 47);
-     border: none;
-     width: 4rem;
-     border-radius: 4px;
-     font-weight: 500;
- }
+  .card-text {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
 
- #design3 {
-     height: 2rem;
-     color: azure;
-     background-color: rgb(47, 164, 47);
-     border: none;
-     width: 4rem;
-     border-radius: 4px;
-     font-weight: 500;
- }
+  #one {
+      font-weight: bold;
+  }
 
- #delete-btn {
-     height: 2rem;
-     color: azure;
-     background-color: rgb(47, 164, 47);
-     border: none;
-     width: 4rem;
-     border-radius: 4px;
-     font-weight: 500;
- }
+  #two {
+      font-weight: bold;
+  }
 
- #back-btn {
-     height: 2rem;
-     color: azure;
-     background-color: rgb(47, 164, 47);
-     border: none;
-     width: 4rem;
-     border-radius: 4px;
-     font-weight: 500;
- }
+  #three {
+      font-weight: bold;
+  }
 
- #clrr {
-     color: rgb(181, 69, 69);
-     margin-top: 1.5rem;
-     font-weight: bold;
-     font-size: 1.2rem;
- }
+  #four {
+      font-weight: bold;
+  }
 
- #detailDiscriptionContainer {
-     display: none;
- }
+  #five {
+      font-weight: bold;
+  }
+
+
+  #design1 {
+      height: 2rem;
+      color: azure;
+      background-color: rgb(47, 164, 47);
+      border: none;
+      width: 4rem;
+      border-radius: 4px;
+      font-weight: 500;
+
+  }
+
+  #design2 {
+      height: 2rem;
+      color: azure;
+      background-color: rgb(47, 164, 47);
+      border: none;
+      width: 4rem;
+      border-radius: 4px;
+      font-weight: 500;
+  }
+
+  #design3 {
+      height: 2rem;
+      color: azure;
+      background-color: rgb(47, 164, 47);
+      border: none;
+      width: 4rem;
+      border-radius: 4px;
+      font-weight: 500;
+  }
+
+  #delete-btn {
+      height: 2rem;
+      color: azure;
+      background-color: rgb(47, 164, 47);
+      border: none;
+      width: 4rem;
+      border-radius: 4px;
+      font-weight: 500;
+  }
+
+  #back-btn {
+      height: 2rem;
+      color: azure;
+      background-color: rgb(47, 164, 47);
+      border: none;
+      width: 4rem;
+      border-radius: 4px;
+      font-weight: 500;
+  }
+
+  #clrr {
+      color: rgb(181, 69, 69);
+      margin-top: 1.5rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+  }
+
+  #detailDiscriptionContainer {
+      display: none;
+  }

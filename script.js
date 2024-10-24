@@ -70,6 +70,8 @@ function resetForm() {
     document.getElementById('formData').reset();
     editId = null;
     showDetail(false);
+    document.getElementById("bttn").innerText = "Add Product";
+    document.getElementById("font1").innerText="Add Product";
 }
 
 function renderCardDetail(id) {
@@ -78,8 +80,8 @@ function renderCardDetail(id) {
     const item = data.find(user => user._id === id);
 
     detailDiscriptionContainer.innerHTML = `
-        <div class="card1" style="width: 90rem;height:43rem; display:flex; gap:35rem;">
-            <div id="main"style="display: flex; align-items: center;margin-left:2rem;">
+        <div class="card1" style="display:flex;flex-wrap:wrap;justify-content:space-between">
+            <div id="main"style="display: flex;margin-left:2rem;">
                 <img src="${item.data.image}" class="detail" alt="...">
             </div>
             <div class="card-body1" style="display:flex; flex-direction:column; justify-content:center;">
@@ -129,6 +131,7 @@ function editEntry(id) {
         document.getElementById("quantity").value = item.data.quantity;
         document.getElementById("image").value = item.data.image;
         document.getElementById("bttn").innerText = "Edit Product";
+        document.getElementById("font1").innerText="Edit Product";
         editId = id;
        clickForm(true);
     }
